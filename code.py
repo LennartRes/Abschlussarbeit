@@ -1,1 +1,1 @@
-hello this is the start
+print("hello")
