@@ -1,0 +1,7 @@
+Pipeline(steps=[('prep',
+                 Pipeline(steps=[('preprocessing',
+                                  ColumnTransformer(transformers=[('num',
+                                                                   Pipeline(steps=[('std_scaler',
+                                                                                    StandardScaler())]),
+                                                                   ['fnlwgt',
+                                                                  ...

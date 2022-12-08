@@ -1,0 +1,6 @@
+artifact_location: file:///C:/Users/Lennart%20Reschke/Documents/Privat/Data%20Science%20M.Sc/Semester%203/11%20ADS%2003/Abschlussarbeit/mlruns/1
+creation_time: 1670517063961
+experiment_id: '1'
+last_update_time: 1670517063961
+lifecycle_stage: active
+name: class-pred-grid-search

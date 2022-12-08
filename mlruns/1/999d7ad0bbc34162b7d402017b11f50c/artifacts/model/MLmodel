@@ -1,0 +1,26 @@
+artifact_path: model
+flavors:
+  python_function:
+    env: conda.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.9.13
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.1.2
+mlflow_version: 1.29.0
+model_uuid: d8de7c4ef41845d08c9298024a36b3c8
+run_id: 999d7ad0bbc34162b7d402017b11f50c
+signature:
+  inputs: '[{"name": "fnlwgt", "type": "long"}, {"name": "education-num", "type":
+    "long"}, {"name": "age", "type": "long"}, {"name": "workclass", "type": "string"},
+    {"name": "education", "type": "string"}, {"name": "marital_status", "type": "string"},
+    {"name": "occupation", "type": "string"}, {"name": "relationship", "type": "string"},
+    {"name": "race", "type": "string"}, {"name": "sex", "type": "string"}, {"name":
+    "capitalgain", "type": "long"}, {"name": "capitalloss", "type": "long"}, {"name":
+    "hoursperweek", "type": "long"}, {"name": "native-country", "type": "string"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "object", "shape": [-1]}}]'
+utc_time_created: '2022-12-08 17:11:31.838212'

@@ -1,0 +1,1 @@
+[('numerical', Pipeline(steps=[('num_trans', MinMaxScaler())]), ['fnlwgt', 'education-num']), ('categorical', Pipeline(steps=[('cat_trans', OneHotEncoder())]), ['age', 'workclass', 'education', 'marital_status', 'occupation', 'relationship', 'race', 'sex', 'capitalgain', 'capitalloss', 'hoursperweek', 'native-country'])]
