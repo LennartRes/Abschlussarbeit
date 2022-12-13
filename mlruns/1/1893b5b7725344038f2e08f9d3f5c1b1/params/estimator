@@ -1,0 +1,2 @@
+Pipeline(steps=[('std_slc', StandardScaler()),
+                ('logistic_Reg', LogisticRegression())])
