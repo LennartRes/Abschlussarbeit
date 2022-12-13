@@ -1,0 +1,8 @@
+Pipeline(steps=[('preprocessing',
+                 ColumnTransformer(transformers=[('numerical',
+                                                  Pipeline(steps=[('num_trans',
+                                                                   RobustScaler())]),
+                                                  ['fnlwgt', 'education-num']),
+                                                 ('categorical',
+                                                  Pipeline(steps=[('cat_trans',
+         ...

@@ -1,0 +1,7 @@
+[('prep_a', ColumnTransformer(remainder='passthrough',
+                  transformers=[('imp', IterativeImputer(random_state=42),
+                                 [0, 1, 2, 3, 4, 5])])), ('prep_b', ColumnTransformer(transformers=[('scale', StandardScaler(), [0, 1, 2, 3, 4, 5]),
+                                ('ohe',
+                                 OneHotEncoder(handle_unknown='ignore',
+                                               sparse=False),
+                                 [6, 7, 8, 9...

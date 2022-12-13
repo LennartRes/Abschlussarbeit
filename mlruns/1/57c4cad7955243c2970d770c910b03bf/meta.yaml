@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/Lennart%20Reschke/Documents/Privat/Data%20Science%20M.Sc/Semester%203/11%20ADS%2003/Abschlussarbeit/mlruns/1/57c4cad7955243c2970d770c910b03bf/artifacts
+end_time: 1670943547091
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 57c4cad7955243c2970d770c910b03bf
+run_uuid: 57c4cad7955243c2970d770c910b03bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1670943471330
+status: 3
+tags: []
+user_id: Lennart Reschke
