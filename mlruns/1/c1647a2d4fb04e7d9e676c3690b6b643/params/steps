@@ -1,0 +1,8 @@
+[('num_step', Pipeline(steps=[('std_scaler', StandardScaler())])), ('prep_step', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('std_scaler',
+                                                  StandardScaler())]),
+                                 ['fnlwgt', 'education-num']),
+                                ('ohe',
+                                 OneHotEncoder(handle_unknown='ignore',
+                                               sparse=False),
+    ...
