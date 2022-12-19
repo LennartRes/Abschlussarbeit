@@ -6,8 +6,7 @@ WICHTIG: Für Pandas Profile Report, entsprechende Zeile einkommentieren. Zwecks
 1. Beschreibung des Datensatzes (Pandas Profiling)
 2. Wrangling
 3. Transformieren der Features
-4. Testen der besten Modelle
-5. PCA check
-6. Check for overfitting des besten Modells ---> Decision Tree might be overfitted
-7. Nächst besten nehmen und gridSearch/Hyperparameter Training nehmen
-8. Ergebnisse des besten Modells präsentieren.
+4. PCA check
+5. Testen der besten Modelle
+6. Hyperparameter Tuning mit GridSearch
+7. MSE, F1 Score und Confusion Matrix der besten beiden Modelle.
